@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "gitlabapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomsantanna/Notificador-Issues-Gitlab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagomsantanna/Notificador-Issues-Gitlab/issues"
+  },
+  "homepage": "https://github.com/thiagomsantanna/Notificador-Issues-Gitlab/blob/main/README.md",
+  "dependencies": {
+    "@gitbeaker/browser": "^31.0.0",
+    "@gitbeaker/node": "^31.0.0",
+    "@slack/bolt": "^3.6.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^3.0.0",
+    "node-notifier": "^10.0.0",
+    "open": "^8.2.1",
+    "request": "^2.88.2",
+    "twilio": "^3.66.0"
+  }
+}
