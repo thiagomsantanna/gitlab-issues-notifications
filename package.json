@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/thiagomsantanna/gitlab-issues-notifications.git"
+    "url": "git+https://github.com/thiagomsantanna/Notificador-Issues-Gitlab.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://https://github.com/thiagomsantanna/gitlab-issues-notifications/issues"
+    "url": "https://github.com/thiagomsantanna/Notificador-Issues-Gitlab/issues"
   },
-  "homepage": "https://https://github.com/thiagomsantanna/gitlab-issues-notifications/blob/main/README.md",
+  "homepage": "https://github.com/thiagomsantanna/Notificador-Issues-Gitlab/blob/main/README.md",
   "dependencies": {
     "@gitbeaker/browser": "^31.0.0",
     "@gitbeaker/node": "^31.0.0",

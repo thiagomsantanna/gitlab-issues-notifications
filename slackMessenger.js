@@ -7,7 +7,7 @@ const app = new App({
   signingSecret: process.env.SIGNINGSECRET,
 });
 
-export function mandaMsgSemTarefas() {
+export function sendNOIssuesMsgToSlack() {
     (async () => {
         const result = await app.client.chat.postMessage({
             token: process.env.SLACKTOKEN, 
@@ -17,7 +17,7 @@ export function mandaMsgSemTarefas() {
     })();
 }
 
-export function mandaMsgComTarefas(tarefas) {
+export function sendIssuesMsgToSlack(tarefas) {
     (async () => {
         const result = await app.client.chat.postMessage({
             token: process.env.SLACKTOKEN, 

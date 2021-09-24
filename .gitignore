@@ -1,6 +1,6 @@
-node_modules
 .env
 tests
 testetestog.js
 testfetch.js
 testeindex.js
+node_modules
